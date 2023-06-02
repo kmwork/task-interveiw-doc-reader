@@ -62,7 +62,7 @@ public class MainApp implements CommandLineRunner {
             System.out.println("Errors: count = " + result.getErrorFileList().size() + " into files = " + result.getErrorFileList());
             System.out.println("Skip files: " + result.getSkipFileCounter());
         } catch (Exception ex) {
-            log.info("[App] Error into Application", ex);
+            log.error("[App] Error into Application", ex);
             System.exit(999);
         }
     }
