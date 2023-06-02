@@ -41,7 +41,7 @@ mvn clean compile package
 ```
 run-page-counter-windows.bat c:\my_docs\
 ```
-где c:/my_docs/ - путь к документам.
+где c:\my_docs\ - путь к документам.
 Если не объявлена переменная среды окружения JAVA_HOME, тогда нужно прописать в файле `run-page-counter-windows.bat`
 
 ### Коды ошибок программы (по Java System.exit(code))
