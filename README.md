@@ -55,9 +55,11 @@ run-page-counter-windows.bat c:\my_docs\
 В классе `DocxAndPdfFactory` (пакет `kostya.hacker.parsers`) описаны два парсера форматов (Docx и PDF)
 можно добавить класс разбора нового типа документа (нужно заимплементить от интерфейса SingleDocTypeReader и добавить 
 строку, по аналогии
-`    public DocxAndPdfFactory() {
+```
+    public DocxAndPdfFactory() {
         addReader(new DocxReader());
         addReader(new PdfReader());
-}`
+    }
+```
 
 
